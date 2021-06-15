@@ -1,0 +1,22 @@
+/* common styles */
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Baloo Da 2", cursive;
+}
+html {
+  font-size: 62.5%;
+}
+/* end of common styles */
+/* section 1 */
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  background: url(images/dark-bg.jpeg) no-repeat;
+}
+/* end of section 1 */
