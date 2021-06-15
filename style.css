@@ -19,10 +19,20 @@ html {
   height: 8rem;
   background-color: rgba(0, 0, 0, 0.9);
   position: fixed;
-  top: 0;
+  top: -8rem;
   z-index: 10;
   padding: 3rem;
   transition: height 0.5s;
+  animation: animateNavbar 1s 0.5s forwards;
+}
+
+@keyframes animateNavbar {
+  0% {
+    top: -8rem;
+  }
+  100% {
+    top: 0;
+  }
 }
 .navbar.change {
   height: 100vh;
@@ -94,13 +104,23 @@ html {
   height: 0.2rem;
   background-color: #eee;
   transition: transform 0.3s;
+  transition: transform 0.3s;
 }
 .line-1 {
   width: 50%;
 }
+
+.change .line-1 {
+  transform: translate(100%, 1rem) rotate(-35deg);
+  transform-origin: right;
+}
 .line-3 {
   width: 50%;
   margin-left: auto;
+}
+.change .line-3 {
+  transform: translateY(-1rem) rotate(35deg);
+  transform-origin: right;
 }
 /* end of menu */
 /* section 1 */
