@@ -11,6 +11,7 @@
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 .section-heading {
   font-family: Oswald, sans-serif;
@@ -580,3 +581,29 @@ html {
   background-color: #5f0303;
 }
 /* end of section 4 */
+/* footer */
+.footer {
+  width: 100%;
+  height: 12rem;
+  background-color: #202122;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}
+.footer-nav a {
+  font-family: MADE Soulmaze, sans-serif;
+  font-size: 2rem;
+  color: #ccc;
+  margin-right: 3rem;
+  letter-spacing: 0.1rem;
+  transition: color 0.3s;
+}
+.footer-nav a:hover {
+  color: #862323;
+}
+.copyright {
+  font-size: 2rem;
+  color: #ddd;
+}
+/* end of footer */
